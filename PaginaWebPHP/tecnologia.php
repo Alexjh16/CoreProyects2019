@@ -33,10 +33,8 @@
 			</div>
 			<?php include_once('includes/asidebar.php');?>
 		</div>	
-		<div class="row">
-			<?php include('includes/footer.php');?>		
-		</div>	
 	</div>
+<?php include('includes/footer.php');?>	
 	<script src="js/bootstrap.3.4.js"></script>
 </body>
 </html>

@@ -1,0 +1,135 @@
+@import url("header.php");
+@import url("navbar.css");
+@import url("sidebar.css");
+@import url("asidebar.css");
+@import url("footer.css");
+/*-----------------------*/
+@import url("tecnologia.css");
+@import url("peliculas.css");
+@import url("musica.css");
+@import url("cultura.css");
+
+
+@font-face{
+	font-family: 'cabinbold';
+	src: url(../fonts/cabinbold.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'cabinregular';
+	src: url(../fonts/cabinregular.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'robotoslabregular';
+	src: url(../fonts/robotoslabregular.woff) format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.index a p{
+	font-family: 'cabinregular';
+}
+
+.index a{	
+	color: black;
+	text-decoration: none;
+}
+
+.index a:hover{
+	color: rgba(51,51,51,0.8);
+	transition: .5s;
+}
+
+.index .date{
+	margin-top: -2%;
+	font-family: 'cabinregular';
+	color: #656565;
+}
+
+.break-line{
+	border: 1.5px solid #0E65A5;
+	width: 70%;
+	margin-left: 0%;
+	margin-top: -1%;
+}
+
+.index h3{
+	-webkit-font-smoothing: antialiased;
+    font-weight: normal;
+	color: #1C1C1C;;
+	font-weight: bold;
+}
+.index p{
+	margin-top: -2%;
+	font-family: 'cabinregular';
+	color: #656565;
+}
+.index .extern{
+	color: rgba(0,50,100);
+}
+
+.index span{
+	position: relative;
+	z-index: 1;
+	padding-left: 7px;
+	font-family: 'cabinregular';
+}
+.index .span{
+	background-color: rgba(80,80,80,0.1);
+	margin-top: -5%;
+	padding: 15px 45%;
+	position: absolute;
+}
+
+.index h4{
+	letter-spacing: 0px;
+	padding-top: 8px;
+	font-weight: unset;
+	line-height: 30px;
+	font-family: 'robotoslabregular';
+}
+
+.index img{
+	width: 100%;
+}
+.index .caption{
+	height: 40px;
+	width: 100%;
+	background-color: rgba(80,80,80,0.1);
+	padding-top: 10px;
+	text-align: center;
+	margin-top: 0%;
+	border-bottom: .5px solid rgba(60,60,60,0.2);
+}
+
+.index .caption a{
+	color: rgba(51,51,51,0.8);
+}
+
+.index .caption a:hover{
+	color: rgba(45,45,45,0.5);
+}
+
+.index #musica{
+	margin-top: 20px;
+	border: .5px solid rgba(60,60,60,0.2);
+	padding: 10px 10px;
+	color: rgba(51,51,51,0.8);
+	font-family: 'cabinbold';
+	background-color: rgba(245,245,245,0.7);
+	transition: .5s;
+}
+
+.index #musica:hover{
+	border: .5px solid rgba(60,60,60,0.2);
+	padding: 10px 10px;
+	font-family: 'cabinbold';
+	background-color: #0E65A5;
+	color: #FFFFFF;
+	transition: .5s;
+}

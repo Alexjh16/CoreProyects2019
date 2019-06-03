@@ -1,0 +1,23 @@
+.title{
+	font-family: "cabinbold";
+}
+
+.navbar{
+	margin-top: 20px;
+}
+
+.navbar p{
+	margin-top: 30px;
+	text-align: right;
+}
+
+.navbar p a{
+	font-family: 'cabinregular';
+	color: rgba(51,51,51,0.8);
+}
+
+.navbar p a:hover{
+	text-decoration: none;
+	color: rgba(51,51,70);
+}
+

@@ -1,0 +1,192 @@
+section img
+{
+	transform: translate(-6%, -435px);
+	z-index: -555;
+	position: absolute;
+	border-radius: 8px;
+	margin-top: 40%;
+	opacity: 0.7;
+	height: 474px;
+	width: 720px;
+	filter: blur(5px);
+}
+
+
+
+section h1
+{
+	z-index: 77777;
+	position: relative;
+	border-bottom: double #606060;
+	margin-bottom: 80%;
+	transform: translate(45px, 160px);
+	font-size: 25px !important;
+	background-image: linear-gradient(to right, pink, aqua, yellow,white, violet, aqua,white);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+/*Hacer responsive cuaqlquier sitio, condicionando el tamaño de la pantalla*/
+.mensaje-responsive
+{display: none;}
+
+@media only screen and (max-width: 1080px){
+	.responsive
+	{display: none;}
+
+	.mensaje-responsive
+	{
+		display: block;
+		text-align: center;
+		margin-top: 25%;
+		font-size: 20px;
+		color: rgba(120,15,0) !important;
+	}
+
+	body{
+		background-image: url('../img/error.gif'); 
+		background-position: center center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (min-height: 720px){
+	section img
+	{
+		transform: translate(-8%, -82%);
+		height: 475px;
+		width: 560px;
+	}
+
+	section h1
+	{
+		font-size: 18px !important;
+	}
+}
+.box-blur
+{
+	position: absolute;
+	background-color: rgba(41,41,50,.6);
+	padding: 428px 410px 50px 0px;
+	transform: translate(720px, 0px);
+	border-radius: 8px;
+	opacity: 0.6;
+	z-index: -10;
+	background-image: url('../img/back-contact-me.png');
+	background-size: 420px 480px;
+	background-repeat: no-repeat;
+}
+
+.formulario
+{
+	z-index: 77;
+	transform: ;
+	text-align: center;
+	transform: translate(22%, 10%);
+	position: relative;
+}
+
+.formulario i
+{
+	font-size: 15px;
+}
+
+.formulario h2
+{
+	background-image: linear-gradient(to left, rgba(255,255,255), rgba(250,250,250));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	font-family: sans-serif;
+}
+.formulario input[type="text"]
+{
+	height: 30px;
+	width: 380px;
+	border: none;
+	margin-top: 19px;
+	color: white;
+	background-color: transparent;
+	border-bottom: solid 1px white;
+	font-family: monospace;
+	font-size: 19px;
+}
+
+.formulario textarea
+{
+	width: 380px;
+	height: 70px;
+	margin-top: 5px;
+	background-color: transparent;
+	border: none;
+	border-bottom: solid 1px rgba(250,250,250);
+	font-family: cursive;
+	font-size: 20px;
+	color: rgba(255,255,255);
+	resize: none;
+}
+.formulario button
+{
+	width: 380px;
+	height: 50px;
+	color: white;
+	background-color: rgba(170,110,140,0.3);
+	border-radius: 2px;
+	font-size: 20px;
+	border: none;
+	border-collapse: collapse;
+}
+
+::placeholder
+
+{
+	background-image: linear-gradient(to right, rgba(210,210,210,0.7), rgba(215,215,215,0.6));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.formulario input[type="text"], .formulario textarea
+	{ outline: none;}
+
+.formulario button:hover
+{ 
+	background-color: rgba(170,100,140,0.6);
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.formulario button:active
+{
+	background-color: rgba(180,110,140);
+	transition: 0.1s;
+	box-shadow: 0px 0px 5px 2px rgba(180,110,140);
+	color: rgba(255,255,255,0.6);
+}
+
+/**************************************************************************/
+.formulario textarea:focus
+{ animation: color_border_textarea 1s forwards;}
+
+.formulario input[type="text"]:focus
+{ animation: color_border_input 1s forwards;}
+
+ @keyframes color_border_textarea
+ {
+ 	1%{ border-bottom: dotted 2px rgba(180,100,140,0.1);}
+ 	25%{ border-bottom: dotted 2px rgba(180,100,140,0.25);}
+ 	50%{ border-bottom: dotted 2px rgba(180,100,140,0.5);}
+ 	75%{ border-bottom: dotted 2px rgba(180,100,140,0.7);}
+ 	100%{ border-bottom: dotted 2px rgba(180,100,141,0.8);}
+ }
+
+ @keyframes color_border_input
+ {
+ 	1%{ border-bottom: solid 2px rgba(180,100,140,0.1);}
+ 	25%{ border-bottom: solid 2px rgba(180,100,140,0.25);}
+ 	50%{ border-bottom: solid 2px rgba(180,100,140,0.5);}
+ 	75%{ border-bottom: solid 2px rgba(180,100,140,0.7);}
+ 	100%{ border-bottom: solid 2px rgba(180,100,141,0.8);}
+ }
+
+
+/**************************************************************************/

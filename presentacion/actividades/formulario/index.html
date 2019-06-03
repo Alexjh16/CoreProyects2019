@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<title>Document</title>
+	<style type="text/css">
+		body
+		{
+			margin: 25px;
+		}
+
+		.input-danger:focus{
+			border:1px solid red!important;
+		}
+	</style>
+</head>
+<body>
+	<ul class="breadcrumb">
+		<li><a href="">Alumnos</a></li>
+		<li>Registro Multiple de Alumnos</li>
+	</ul>
+<form>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<table>
+					<tr>
+						<div class="panel-default">
+							<div class="panel-heading">
+								<span><b>Nombres</b></small></span>
+									<br>
+										<input class="form-control" type="text" placeholder="Digita tu nombre" required="">
+									<br><br>
+								<span><b>Apellido</b></span>
+									<br>
+										<input class="form-control" type="text" placeholder="Digita tu apellido">
+									<br><br>
+								<span><b>Correo</b></span>
+									<br>
+										<input class="form-control" type="email" placeholder="ejemplo@hotmail.com">		
+									<br><br>
+								<span><b>Sexo</b></span>					
+								 	<br>
+								 		<select class="form-control">
+								 			<option>Masculino</option>
+								 			<option>Femenino</option>
+								 			<option>Indefinido</option>
+								 		</select>
+								 	<br><br>
+								 <span><b>Fecha de nacimiento</b></span>
+								 	<br>
+								 		<input class="form-control" type="date" value="2017-07-07" placeholder="" readonly="">
+								 	<br><br>
+								 <span><b>Foto</b></span>
+								 	<br>
+								 		<input style="width: 100%;" type="file" name="" value="">
+							</div>
+						</div>
+					</tr>
+				</table>	
+			</div>
+
+			<div class="col-md-4">
+				<table>
+					<tr>
+						<div class="panel-default">
+							<div class="panel-heading">
+								<span><b>Nombres</b><small class="text-danger">&nbsp&nbspEste campo es obligatorio</small></span>
+									<br>
+										<input class="input-danger form-control" type="text" placeholder="Digita tu nombre">
+									<br><br>
+								<span><b>Apellido</b><small class="text-danger">&nbsp&nbspEste campo es obligatorio</small></span>
+									<br>
+										<input class="input-danger form-control" type="text" placeholder="Digita tu apellido">
+									<br><br>
+								<span><b>Correo</b></span>
+									<br>
+										<input class="form-control" type="email" placeholder="ejemplo@hotmail.com"name="">		
+									<br><br>
+								<span><b>Sexo</b></span>					
+								 	<br>
+								 		<select class="form-control">
+								 			<option>Masculino</option>
+								 			<option>Femenino</option>
+								 			<option>Indefinido</option>
+								 		</select>
+								 	<br><br>
+								 <span><b>Fecha de nacimiento</b></span>
+								 	<br>
+								 		<input class="form-control" type="date" value="2017-07-07" readonly="">
+								 	<br><br>
+								 <span><b>Foto</b></span>
+								 	<br>
+								 		<input style="width: 100%;" type="file" name="">						
+							</div>
+						</div>
+					</tr>
+				</table>	
+			</div>
+
+			<div class="col-md-4">
+				<table>
+					<tr>
+						<div class="panel-default">
+							<div class="panel-heading">
+								<span><b>Nombres</b></span>
+									<br>
+										<input class="form-control" type="text" placeholder="Digita tu nombre">
+									<br><br>
+								<span><b>Apellido</b></span>
+									<br>
+										<input class="form-control" type="text" placeholder="Digita tu apellido" ="">
+									<br><br>
+								<span><b>Correo</b></span>
+									<br>
+										<input class="form-control" type="email" placeholder="ejemplo@hotmail.com"name="">		
+									<br><br>
+								<span><b>Sexo</b></span>					
+								 	<br>
+								 		<select class="form-control">
+								 			<option>Masculino</option>
+								 			<option>Femenino</option>
+								 			<option>Indefinido</option>
+								 		</select>
+								 	<br><br>
+								 <span><b>Fecha de nacimiento</b></span>
+								 	<br>
+								 		<input class="form-control" type="date" value="2017-07-07" readonly="">
+								 	<br><br>
+								 <span><b>Foto</b></span>
+								 	<br>
+								 		<input style="width: 100%;" type="file" name="">					
+							</div>
+						</div>
+					</tr>
+				</table>	
+			</div>
+		</div>					
+	</div>
+<br><br>
+	<button class="btn btn-success form-control">Guardar</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/*Def de los estilos de elementos dentro de la clase .box*/
+.box
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	color: #FFF;
+	background: rgba(11,11,11,0.3);
+	padding: 30px 0px;
+	border-radius: 10px;
+}
+
+.box h1
+{
+	text-align: center;
+	margin: 30px 0;
+	font-size: 20px;
+	color: #FFFF;
+	font-family: sans-serif;
+}
+
+.box small
+{
+	display: none;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	background-color: rgba(130,18,8,0.5); 
+	font-style: bold;
+	margin-left: 0%;
+	animation: err_animation 1s forwards;
+	box-shadow: 0 0 15px rgba(130,10,8);
+}
+
+/*Def de la animacion de disipado*/
+@keyframes err_animation
+{
+	1%   { transform: translateY(100%) ;opacity: 1;}
+	30%  { transform: translateY(50%) ;opacity: 0.8}
+	60%  { transform: translateY(50%) ;opacity: 0.6;}
+	80%  { transform: translateY(50%) ;opacity: 0.4;}
+	90%  { transform: translateY(50%) ;opacity: ;}
+	100% { transform: translateY(50%) ;opacity: ;}
+
+}
+
+/*Estilos de los input's*/
+.box input[type="text"]
+{
+	display: block;
+	width: 250px;
+	margin: 0px 45px 25px;
+	font-size: 15px;
+	padding: 15px;
+	background: rgba(11,11,11,0.5);
+	color: #FFF;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: width .35s ease-in-out;
+	transition: width .35s ease-in-out;
+}
+
+.box input[type="password"]
+{
+	display: block;
+	width: 250px;
+	margin: 0px 45px 5px;
+	font-size: 15px;
+	padding: 15px;
+	color: #FFF;
+	background: rgba(11,11,11,0.5);
+	border: none;
+	border-radius: 5px;
+	border-radius: 3px;
+	-webkit-transition: width .35s ease-in-out;
+	transition: width .35s ease-in-out;
+}
+
+.box input[type="button"]
+{
+	background: #742ECC;
+	border: none;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	width: 350px;
+	margin: 20px auto;
+	display: block;
+	cursor: pointer;
+}
+
+::placeholder
+{
+	color: white;
+}
+
+.box input[type="text"]:focus{ outline: none; width: 310px; transition: 0.5s; border-color: #27AE50; box-shadow: 0 0 20px #27AE50;}
+.box input[type="text"]:active{ outline: none;}
+
+.box input[type="password"]:focus{ outline: none; width: 310px; transition: 0.5s; border-color: #27AE50; box-shadow: 0 0 20px #27AE50;}
+.box input[type="password"]:active{ outline: none;}
+
+.box input[type="button"]:focus{ outline: none;}
+.box input[type="button"]:hover{ background: #27AE60; transition: 0.5s;}

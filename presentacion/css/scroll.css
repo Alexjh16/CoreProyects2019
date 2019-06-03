@@ -1,0 +1,59 @@
+body
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+/*Def clase scroll*/
+.scrolling-box
+{
+  display: block;  
+  overflow-y: scroll;
+  height: 480px;
+  scroll-behavior: smooth;
+  width: 100%;
+
+}
+
+section
+{
+	display: flex;
+  	height: 100%;
+}
+
+/*Def propiedades del scroll en los navegadores*/
+::-webkit-scrollbar
+{
+	height: 2px;
+}
+
+/*.text-centered
+{
+	position: absolute;
+	top: 47%;
+	left: 30%;
+	background-color: rgba(255,95,109,.1);
+	padding: 60px 80px 40px 70px;
+	border-radius: 0px;
+	transform: translate(-50%, -50%);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.banner
+{
+	position: relative;
+	text-align: center justify;
+	color: white;
+ 	font-family: 'Georgia', serif;
+ 	font-size: 25px;
+}
+
+.container .banner .text-centered p
+{
+	 font: cursive;
+	 font-size: 20px;	 
+	 padding-top: 3px;
+
+}*/
